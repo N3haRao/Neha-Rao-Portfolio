@@ -23,25 +23,27 @@ A professional, high-performance, responsive portfolio website built to showcase
 ## Directory Structure
 
 ```text
-Neha-portfolio/
+Neha-Rao-Portfolio/
 │
-├── src/                        # Main source code
-│   ├── index.html              # Home page (Hero section, objective)
-│   ├── projects.html           # Project portfolio
-│   ├── experience.html         # Professional roles & internships
-│   ├── education.html          # Degree descriptions, coursework details
-│   │
-│   ├── css/
-│   │   ├── style.css           # Core base styling, typography, and page structure
-│   │   └── utilities.css       # Granular styling for cards, layout tweaks, and component overrides
-│   │
-│   ├── js/
-│   │   ├── script.js           # Generic site functions (Navigation, Theme toggle)
-│   │   └── canvas-bg.js        # Logic for molecular/phylogenetic interactive network
-│   │
-│   └── assets/                 # SVGs, high-res webp/png imagery and logos
+├── index.html                  # Home page (Hero section, objective)
+├── projects.html               # Project portfolio
+├── experience.html             # Professional roles & internships
+├── education.html              # Degree descriptions and coursework
 │
-└── README.md
+├── css/
+│   ├── style.css               # Core base styling, typography, layout
+│   └── utilities.css           # Component styling and layout utilities
+│
+├── js/
+│   ├── script.js               # Site functionality (navigation, theme toggle)
+│   └── canvas-bg.js            # Molecular / phylogenetic network animation
+│
+├── assets/                     # Images, icons, logos, SVGs
+│
+├── src/
+│   └── _config.yml             # GitHub Pages / Jekyll configuration
+│
+└── README.md                   # Repository documentation
 ```
 
 ## Setup and Development
