@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experience | Neha Rao - Bioinformatics Portfolio</title>
+  <meta name="description"
+    content="Professional experience of Neha Rao in bioinformatics, research, and data analysis." />
+  <link rel="icon" type="image/svg+xml" href="assets/nr-logo.svg" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/utilities.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <!-- Logo -->
+      <h1 id="logo">
+        <a href="index.html"><img src="./assets/nr-logo.svg" alt="Neha Rao Logo"
+            style="height: 40px; width: 40px; border-radius: 8px;" /></a>
+      </h1>
+      <!-- Navbar links -->
+      <ul class="nav-menu">
+        <li><a class="nav-link" href="projects.html">PROJECTS & PUBLICATIONS</a></li>
+        <li><a class="nav-link active-page" href="experience.html">EXPERIENCE</a></li>
+        <li><a class="nav-link" href="education.html">EDUCATION</a></li>
+
+        <li>
+          <a class="nav-link btn btn-primary" href="assets/Neha_Rao_CV.pdf" target="_blank">RESUME <i
+              class="fas fa-arrow-right"></i></a>
+        </li>
+        <!-- Toggle switch -->
+        <div class="theme-switch">
+          <input type="checkbox" id="switch" />
+          <label class="toggle-icons" for="switch">
+            <div class="scenery">
+              <span class="stars"></span>
+              <span class="clouds"></span>
+            </div>
+            <span class="slider-scenery"></span>
+          </label>
+        </div>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Experience Section -->
+  <section id="experience" class="project-container container" style="margin-top: 6rem;">
+    <div class="division"></div>
+    <div class="content-text">
+      <h2>Experience</h2>
+      <p>A history of my roles in research, data analysis, and education.</p>
+    </div>
+
+    <article class="project">
+      <!-- Experience 1 -->
+      <div class="card exp-card">
+        <div class="project-info">
+          <img class="exp-logo" src="assets/experience/iCode-logo.jpg" alt="iCode School logo" />
+          <div class="project-bio">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
+              <div>
+                <h3>Programming Instructor</h3>
+                <p>iCode School Franchise</p>
+                <p>Oct 2025 - Present | Teaching Python, Scratch, Construct 3</p>
+              </div>
+              <button class="expand-btn" onclick="toggleDetails(this)" aria-label="Expand details">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="experience-details">
+
+              <h4 style="margin-top: 1rem;">Key Contributions:</h4>
+              <ul>
+                <li>Design engaging lesson plans, coding challenges, and project-based assessments</li>
+                <li>Mentor students in building interactive web apps and games (HTML/CSS/JS, PHP/MySQL, Roblox Lua,
+                  Scratch)</li>
+                <li>Teach debugging, logical thinking, and structured problem-solving</li>
+                <li>Lead capstone-style builds and seasonal STEAM camps</li>
+                <li>Translate complex technical concepts into age-appropriate, hands-on learning experiences</li>
+                <li>Guide students from block-based programming to text-based coding, building confidence, creativity,
+                  and computational literacy.</li>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience 2 -->
+      <div class="card exp-card">
+        <div class="project-info">
+          <img class="exp-logo" src="assets/experience/WalterReed-logo.png" alt="Walter Reed logo" />
+          <div class="project-bio">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
+              <div>
+                <h3>Data Analyst (AEOP Fellow)</h3>
+                <p>Walter Reed Army Institute of Research (WRAIR)</p>
+                <p>Feb 2025 - Sep 2025 | Multi-omics workflows</p>
+              </div>
+              <button class="expand-btn" onclick="toggleDetails(this)" aria-label="Expand details">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="experience-details">
+              <h4>Key Contributions:</h4>
+              <ul>
+                <li>Designed and executed multi-omics analysis pipelines to uncover molecular programs underlying
+                  traumatic brain injury (TBI) and recovery.</li>
+                <li>Integrated patient blood biomarkers with matched controls to model early predictors of infection and
+                  non-union in a clinical healing study.</li>
+                <li>Harmonized transcriptomic, metabolomic, lipidomic, and microbiome datasets to characterize systemic
+                  responses to gastrointestinal injury.</li>
+                <li>Analyzed behavioral neuroscience datasets (barrier test assays using EthoVision) to investigate
+                  PTSD-like phenotypes.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience 3 -->
+      <div class="card exp-card">
+        <div class="project-info">
+          <img class="exp-logo" src="assets/experience/Carnegie-logo.jpeg" alt="Carnegie Mellon logo" />
+          <div class="project-bio">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
+              <div>
+                <h3>Image Analysis Intern</h3>
+                <p>Carnegie Mellon University</p>
+                <p>Oct 2024 - Dec 2024 | AI/ML for cryoET images in drug discovery</p>
+              </div>
+              <button class="expand-btn" onclick="toggleDetails(this)" aria-label="Expand details">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="experience-details">
+              <h4>Key Contributions:</h4>
+              <ul>
+                <li>Analyzed cryo-electron tomography (cryoET) datasets for drug discovery research using AI/ML models
+                  in PyTorch.</li>
+                <li>Processed and interpreted structural biology data using cryoEM tools including RELION.</li>
+                <li>Contributed to research design and grant proposal preparation, including literature reviews and
+                  project planning.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience 4 -->
+      <div class="card exp-card">
+        <div class="project-info">
+          <img class="exp-logo" src="assets/experience/nci-logo.jpg" alt="NCI logo" />
+          <div class="project-bio">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
+              <div>
+                <h3>Cancer Research Intern</h3>
+                <p>National Cancer Institute (NCI/NIH)</p>
+                <p>May 2024 - Aug 2024 | ML for phenocopy detection</p>
+              </div>
+              <button class="expand-btn" onclick="toggleDetails(this)" aria-label="Expand details">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+            <div class="experience-details">
+              <h4>Key Contributions:</h4>
+              <ul>
+                <li>Employed XGBoost to develop a machine-learning model using TCGA and ICGC data to identify
+                  transcriptional phenocopies of the KRAS<sup>G12D</sup> mutation, enhancing clinical decision-making
+                  for patients without the mutation but exhibiting similar phenotypic traits.</li>
+                <li>Assessed the ability of the phenocopy model to identify single cells with KRAS<sup>G12D</sup>
+                  mutations in various non-malignant samples using single-cell data.</li>
+                <li>Analyzed spatial-transcriptomics data to identify the preferred microenvironments of cells harboring
+                  KRAS<sup>G12D</sup> mutations.</li>
+                <li>Presented our research at the 2024 NIH Summer Poster Day.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience 5 -->
+      <div class="card exp-card">
+        <div class="project-info">
+          <img class="exp-logo" src="assets/experience/Boston_University-logo.png" alt="Boston University logo" />
+          <div class="project-bio">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
+              <div>
+                <h3>Database Development Intern</h3>
+                <p>Boston University</p>
+                <p>Jan 2024 - May 2024 | Multi-omics Alzheimer's Database</p>
+              </div>
+              <button class="expand-btn" onclick="toggleDetails(this)" aria-label="Expand details">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+            <div class="experience-details">
+              <h4>Key Contributions:</h4>
+              <ul>
+                <li><strong>Database Architecture &amp; Pipelines:</strong> Developed a comprehensive database
+                  architecture and pipelines for processing and integrating multi-omics Alzheimer's disease datasets
+                  across various cell types and disease states. This included the analysis of bulk/single-cell ATAC-seq,
+                  RNA-seq, and ChIP-seq using packages such as Seurat, ArchR, and Scanpy.</li>
+                <li><strong>Analysis Framework Development:</strong> Created an advanced analysis framework to construct
+                  cell type-specific TF-CRE-gene regulatory networks under various conditions by integrating epigenomic
+                  and transcriptional profiles.</li>
+                <li><strong>Interactive Visualization Tools:</strong> Established interactive visualizations, including
+                  locus-view tracks, global/subnetwork topology overlays with GWAS data, and regulatory activity
+                  heatmaps. These tools facilitate the exploratory analysis of network perturbations across different
+                  cellular contexts.</li>
+                <li><strong>Customizable API Services &amp; UI Dashboards:</strong> Developed customizable API services
+                  and user interface dashboards using SQL, JavaScript, CSS, AJAX, RShiny and similar tools for querying
+                  and analyzing multidimensional regulatory genomics data layers, reference annotations, cell type
+                  networks, and disease modules within the knowledgebase.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience 6 -->
+      <div class="card exp-card">
+        <div class="project-info">
+          <img class="exp-logo" src="assets/experience/dfci-logo.jpg" alt="Dana-Farber logo" />
+          <div class="project-bio">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
+              <div>
+                <h3>Research Technician</h3>
+                <p>Dana-Farber Cancer Institute</p>
+                <p>Aug 2022 - Mar 2023 | Cancer immunotherapy design</p>
+              </div>
+              <button class="expand-btn" onclick="toggleDetails(this)" aria-label="Expand details">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+            <div class="experience-details">
+              <h4>Key Contributions:</h4>
+              <ul>
+                <li><strong>Machine-Learning-Based Cancer Immunotherapy Design:</strong>
+                  <ul>
+                    <li><u>ML Model Development:</u> Assisted in developing machine learning models to identify
+                      the most effective sensors for precise cancer targeting.</li>
+                    <li><u>Transcription Factor-Sensor Library:</u> Contributed to building a comprehensive
+                      library of transcription factor-sensors.</li>
+                  </ul>
+                </li>
+
+                <li><strong>Sense &amp; Respond Gene Circuits (SEARGENT):</strong>
+                  <ul>
+                    <li><u>In Vitro Validation:</u> Validated SEARGENT-boosted CAR-T cells exhibiting enhanced
+                      anti-tumor specificity and efficacy in vitro.</li>
+                    <li><u>Experimental Design:</u> Designed experiments to evaluate the specificity and
+                      therapeutic efficacy of SEARGENTs in vivo and identify the best combinations for future clinical
+                      translation.</li>
+                  </ul>
+                </li>
+
+                <li><strong>Mutation-Detecting Gene Circuit Platform:</strong>
+                  <ul>
+                    <li><u>Gene Circuit Design:</u> Designed gene circuits to detect DNA mutations in primary
+                      ovarian cancer cells using the CRISPR/Cas9 system.</li>
+                    <li><u>In Vitro Validation:</u> Validated the therapeutic efficacy of these gene circuits for
+                      triggering tumor-specific immunotherapy in vitro.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience 7 -->
+      <div class="card exp-card">
+        <div class="project-info">
+          <img class="exp-logo" src="assets/experience/cygnal-logo.jpg" alt="Cygnal Therapeutics logo" />
+          <div class="project-bio">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
+              <div>
+                <h3>Bioinformatics Intern</h3>
+                <p>Cygnal Therapeutics</p>
+                <p>Aug 2021 - Dec 2021 | Image Analysis</p>
+              </div>
+              <button class="expand-btn" onclick="toggleDetails(this)" aria-label="Expand details">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+            <div class="experience-details">
+              <h4>Key Contributions:</h4>
+              <ul>
+                <li>Developed an immunofluorescence (IF) image analysis pipeline to evaluate target knockdown in neurons and its effect on macrophage polarization (pro-tumor &rarr; anti-tumor phenotypes).</li>
+                <li>Guided assay design and IF marker panel selection to ensure compatibility with automated image analysis workflows.</li>
+                <li>Applied the pipeline to patient histology datasets across multiple cancers to quantify tumor innervation and identify highly innervated tumor types.</li>
+                <li>Analyzed RNA-seq datasets to identify predictive oncogenic biomarkers linked to exo-neuronal signaling pathways in the tumor microenvironment (TME).</li>
+                <li>Discovered co-dependencies and potential synthetic lethal target combinations to support therapeutic target discovery.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
