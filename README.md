@@ -52,7 +52,7 @@ Since this project avoids compiling stages (like Webpack or Vite) and runs on pu
 
 1. **Clone the repository:**
    ```bash
-   git clone <repo-link-here>
+   git clone https://github.com/N3haRao/Neha-Rao-Portfolio.git
    cd Neha-portfolio
    ```
 2. **Launch locally:**
