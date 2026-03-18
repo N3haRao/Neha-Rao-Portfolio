@@ -1,6 +1,6 @@
 # Neha Rao - Bioinformatics Portfolio
 
-A professional, high-performance, responsive portfolio website built to showcase my academic background, professional experience, research projects, and skills as a Bioinformatics Specialist. This portfolio highlights the fusion of data science, machine learning, and biological research.
+https://n3harao.github.io/Neha-Rao-Portfolio/: A professional, high-performance, responsive portfolio website built to showcase my academic background, professional experience, research projects, and skills as a Bioinformatics Specialist. This portfolio highlights the fusion of data science, machine learning, and biological research.
 
 ## Features
 
