@@ -63,6 +63,36 @@
     </div>
 
     <article class="project">
+
+      <!-- Experience 0 -->
+      <div class="card exp-card">
+        <div class="project-info">
+          <img class="exp-logo" src="assets/experience/GW.png" alt="GWU HIVE Lab logo" />
+          <div class="project-bio">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
+              <div>
+                <h3>Volunteer Researcher</h3>
+                <p>HIVE Lab, George Washington University</p>
+                <p>Jun 2026 - Present | LLM-based glycosylation site curation &amp; ML pipeline development</p>
+              </div>
+              <button class="expand-btn" onclick="toggleDetails(this)" aria-label="Expand details">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+            <div class="experience-details">
+              <h4 style="margin-top: 1rem;">Key Contributions:</h4>
+              <ul>
+                <li>Curate and validate LLM-extracted protein glycosylation site candidates from PubMed literature for the GlycoSiteMiner project, confirming each against published experimental evidence and entering verified records through GlyTableMaker.</li>
+                <li>Apply glycobiology domain knowledge to distinguish true glycosylation events from decoys such as phosphorylation, glycation, and unoccupied N-glycan sequons, classifying findings by evidence type (direct vs. indirect) and origin (current vs. prior study).</li>
+                <li>Identified and escalated systematic data-integrity issues in the seven-stage extraction pipeline, including incorrect UniProtKB accession mapping, carbon-position residue notation errors, and PTM-specificity gaps, with reproducible PMID-level examples documented for the engineering team.</li>
+                <li>Authored a structured feedback report on the curation web interface covering accession validation, flagging mechanisms, conditional dropdown logic, and UX improvements.</li>
+                <li>Contributing to ML pipeline v2.0 development: human-curated negative labeling, gold-standard evaluation set construction, active learning, and richer feature engineering, with a roadmap toward extending coverage beyond glycosylation to other post-translational modifications.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <!-- Experience 1 -->
       <div class="card exp-card">
         <div class="project-info">
